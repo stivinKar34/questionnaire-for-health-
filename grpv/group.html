@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulation-Based Learning Evaluation</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        h2 {
+            color: #007BFF;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        p {
+                background-color: #63a73c;
+                font-family: 'Arial', sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+
+            }
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Evaluation of Simulation-Based Learning</h1>
+    </header>
+
+    </head>
+    
+        <section style="background-color: #a8dadc;">
+            <p>
+                Dear participant, Thank you for agreeing to fill in this questionnaire. The purpose of this research study is to evaluate the contribution of simulation-based learning on knowledge acquisition and competency in skills among undergraduate nursing students. Any information collected from you during this study will be kept strictly confidential. Your data will be assigned a unique identifier, and your personal information will be separated from research data to ensure anonymity. Please answer the following questions to the best of your knowledge (Please tick only one correct answer). Your participation in this study is entirely voluntary, and you can withdraw at any time without penalty. If you have any questions or need further clarification, do not hesitate to ask.
+            </p>
+
+
+    <section>
+        <!-- BIODATA -->
+        <h2>BIODATA</h2>
+        <label for="currentYear">What is your current year of study?</label>
+        <select id="currentYear" name="currentYear">
+            <option value="yearThree">Year three</option>
+            <option value="yearFour">Year four</option>
+        </select>
+
+        <label for="currentUniversity">Which university are you currently studying?</label>
+        <select id="currentUniversity" name="currentUniversity">
+            <option value="kenyatta">Kenyatta University</option>
+            <option value="uon">University of Nairobi</option>
+            <option value="jkuat">Jomo Kenyatta University</option>
+        </select>
+
+        <!-- Section A -->
+        <h2>Section A: Simulation influence in learning and development of nursing skills</h2>
+        <label for="nursingSkillsRating">During institutional assessment and self-assessment on a scale of 1 to 10, how would you rate your nursing skills?</label>
+        <input type="radio" name="nursingSkillsRating" value="1-2"> 1-2
+        <input type="radio" name="nursingSkillsRating" value="3-5"> 3-5
+        <input type="radio" name="nursingSkillsRating" value="6-7"> 6-7
+        <input type="radio" name="nursingSkillsRating" value="8-10"> 8-10
+
+        <label for="simulationIncorporation">Has the use of simulation been incorporated in your nursing education by the institution?</label>
+        <input type="radio" name="simulationIncorporation" value="yes"> YES
+        <input type="radio" name="simulationIncorporation" value="no"> NO
+
+        <label for="simulationType">What type of simulation has been often used by your lecturers in your nursing education?</label>
+        <input type="checkbox" name="simulationType" value="rolePlaying"> Role playing
+        <input type="checkbox" name="simulationType" value="casePresentation"> Case presentation
+        <input type="checkbox" name="simulationType" value="useOfModels"> Use of models
+        <input type="checkbox" name="simulationType" value="other"> Others (Specify)
+
+<label for="simulationInfluence">Has the use of simulation in your nursing education influenced the development of your nursing skills?</label>
+<input type="radio" name="simulationInfluence" value="yes"> YES
+<input type="radio" name="simulationInfluence" value="no"> NO
+
+<label for="simulationAccuracy">Does the use of simulation in your nursing education accurately reflect the real clinical practice? Rate your answer on a scale of 1 to 5. (1 = Not very accurately, 5 = Very accurately)</label>
+<input type="radio" name="simulationAccuracy" value="1"> 1
+<input type="radio" name="simulationAccuracy" value="2"> 2
+<input type="radio" name="simulationAccuracy" value="3"> 3
+<input type="radio" name="simulationAccuracy" value="4"> 4
+<input type="radio" name="simulationAccuracy" value="5"> 5
+
+<label for="simulationCurriculum">The use of simulation in nursing education should incorporate more into the nursing curriculum.</label>
+<input type="radio" name="simulationCurriculum" value="stronglyAgree"> Strongly agree
+<input type="radio" name="simulationCurriculum" value="agree"> Agree
+<input type="radio" name="simulationCurriculum" value="disagree"> Disagree
+<input type="radio" name="simulationCurriculum" value="stronglyDisagree"> Strongly disagree
+
+        <!-- Continue adding your questions for Section A -->
+
+        <!-- Section B -->
+<h2>Section B: Simulation on competency of students and knowledge acquisition</h2>
+
+<label for="theoryEnhancement">Simulation-based nursing education enhances theoretical knowledge related to patient care.</label>
+<input type="radio" name="theoryEnhancement" value="stronglyDisagree"> Strongly Disagree
+<input type="radio" name="theoryEnhancement" value="disagree"> Disagree
+<input type="radio" name="theoryEnhancement" value="neutral"> Neutral
+<input type="radio" name="theoryEnhancement" value="agree"> Agree
+<input type="radio" name="theoryEnhancement" value="stronglyAgree"> Strongly Agree
+
+<label for="effectiveness">How effective was simulation-based learning in improving your understanding of complex medical circumstances, disease processes, and treatment techniques?</label>
+<input type="radio" name="effectiveness" value="notEffective"> Not Effective
+<input type="radio" name="effectiveness" value="somewhatEffective"> Somewhat Effective
+<input type="radio" name="effectiveness" value="neutralEffectiveness"> Neutral
+<input type="radio" name="effectiveness" value="effective"> Effective
+<input type="radio" name="effectiveness" value="veryEffective"> Very Effective
+
+<label for="confidenceIncrease">Did simulation-based education increase your confidence in applying theoretical knowledge to real clinical situations?</label>
+<input type="radio" name="confidenceIncrease" value="notAtAll"> Not at All
+<input type="radio" name="confidenceIncrease" value="slightly"> Slightly
+<input type="radio" name="confidenceIncrease" value="neutralConfidence"> Neutral
+<input type="radio" name="confidenceIncrease" value="moderately"> Moderately
+<input type="radio" name="confidenceIncrease" value="significantly"> Significantly
+
+<label for="contributionToKnowledge">In your opinion, to what extent did simulation-based learning contribute to a better your knowledge base in nursing?</label>
+<input type="radio" name="contributionToKnowledge" value="none"> None
+<input type="radio" name="contributionToKnowledge" value="aLittle"> A Little
+<input type="radio" name="contributionToKnowledge" value="neutralKnowledge"> Neutral
+<input type="radio" name="contributionToKnowledge" value="aGoodAmount"> A Good Amount
+<input type="radio" name="contributionToKnowledge" value="aGreatDeal"> A Great Deal
+
+<label for="alignmentWithObjectives">How well did simulation-based education align with your learning objectives for theoretical knowledge in nursing?</label>
+<input type="radio" name="alignmentWithObjectives" value="poorly"> Poorly
+<input type="radio" name="alignmentWithObjectives" value="fairlyWell"> Fairly Well
+<input type="radio" name="alignmentWithObjectives" value="neutralAlignment"> Neutral
+<input type="radio" name="alignmentWithObjectives" value="well"> Well
+<input type="radio" name="alignmentWithObjectives" value="veryWell"> Very Well
+
+<label for="recommendationLikelihood">Considering your experience with simulation-based nursing education, how likely are you to recommend it to fellow nursing students for improving knowledge acquisition?</label>
+<input type="radio" name="recommendationLikelihood" value="veryUnlikely"> Very Unlikely
+<input type="radio" name="recommendationLikelihood" value="unlikely"> Unlikely
+<input type="radio" name="recommendationLikelihood" value="neutralRecommendation"> Neutral
+<input type="radio" name="recommendationLikelihood" value="likely"> Likely
+<input type="radio" name="recommendationLikelihood" value="veryLikely"> Very Likely
+
+<label for="competencyImprovement">To what extent did simulation-based nursing education improve your clinical competency in performing nursing skills?</label>
+<input type="radio" name="competencyImprovement" value="notAtAll"> Not at All
+<input type="radio" name="competencyImprovement" value="slightly"> Slightly
+<input type="radio" name="competencyImprovement" value="neutralCompetency"> Neutral
+<input type="radio" name="competencyImprovement" value="moderately"> Moderately
+<input type="radio" name="competencyImprovement" value="significantly"> Significantly
+
+<label for="preparationForClinicalPractice">How well did simulation-based learning prepare you for real-world clinical practice in terms of competency?</label>
+<input type="radio" name="preparationForClinicalPractice" value="poorly"> Poorly
+<input type="radio" name="preparationForClinicalPractice" value="fairlyWell"> Fairly Well
+<input type="radio" name="preparationForClinicalPractice" value="neutralPreparation"> Neutral
+<input type="radio" name="preparationForClinicalPractice" value="well"> Well
+<input type="radio" name="preparationForClinicalPractice" value="veryWell"> Very Well
+
+<label for="selfConfidenceEnhancement">Simulation-based education enhances your self-confidence in executing clinical procedures and tasks</label>
+<input type="radio" name="selfConfidenceEnhancement" value="stronglyDisagree"> Strongly Disagree
+<input type="radio" name="selfConfidenceEnhancement" value="disagree"> Disagree
+<input type="radio" name="selfConfidenceEnhancement" value="neutralSelfConfidence"> Neutral
+<input type="radio" name="selfConfidenceEnhancement" value="agree"> Agree
+<input type="radio" name="selfConfidenceEnhancement" value="stronglyAgree"> Strongly Agree
+
+<label for="psychomotorSkillsContribution">In your opinion, to what extent did simulation-based learning contribute to your psychomotor skills and competence in nursing?</label>
+<input type="radio" name="psychomotorSkillsContribution" value="none"> None
+<input type="radio" name="psychomotorSkillsContribution" value="aLittle"> A Little
+<input type="radio" name="psychomotorSkillsContribution" value="neutralSkillsContribution"> Neutral
+<input type="radio" name="psychomotorSkillsContribution" value="aGoodAmount"> A Good Amount
+<input type="radio" name="psychomotorSkillsContribution" value="aGreatDeal"> A Great Deal
+
+<label for="alignmentWithObjectivesClinical">How would you rate the alignment of simulation-based education with your learning objectives for clinical competency in nursing?</label>
+<input type="radio" name="alignmentWithObjectivesClinical" value="poorly"> Poorly
+<input type="radio" name="alignmentWithObjectivesClinical" value="fairlyWell"> Fairly Well
+<input type="radio" name="alignmentWithObjectivesClinical" value="neutralAlignmentClinical"> Neutral
+<input type="radio" name="alignmentWithObjectivesClinical" value="well"> Well
+<input type="radio" name="alignmentWithObjectivesClinical" value="veryWell"> Very Well
+
+<label for="recommendationLikelihoodClinical">Considering your experience with simulation-based nursing education, how likely are you to recommend it to fellow nursing students for improving clinical competency?</label>
+<input type="radio" name="recommendationLikelihoodClinical" value="veryUnlikely"> Very Unlikely
+<input type="radio" name="recommendationLikelihoodClinical" value="unlikely"> Unlikely
+<input type="radio" name="recommendationLikelihoodClinical" value="neutralRecommendationClinical"> Neutral
+<input type="radio" name="recommendationLikelihoodClinical" value="likely"> Likely
+<input type="radio" name="recommendationLikelihoodClinical" value="veryLikely"> Very Likely
+
+
+
+
+<!-- Continue adding your questions for Section B -->
+
+        <!-- Section 3 -->
+        <h2>Section C: Institutional Factors</h2>
+
+<label for="availabilityRating">On a scale of 1 to 5, how would you rate the availability of simulation resources and facilities at your institution? (1 = Very Poor, 5 = Excellent)</label>
+<input type="number" name="availabilityRating" min="1" max="5">
+
+<label for="accessToEquipment">Have you had access to up-to-date simulation equipment and technology during your nursing program?</label>
+<input type="radio" name="accessToEquipment" value="yes"> Yes
+<input type="radio" name="accessToEquipment" value="no"> No
+
+<label for="supportRating">How would you rate the support and guidance provided by faculty and staff during simulation-based learning? (1 = Very Poor, 5 = Excellent)</label>
+<input type="number" name="supportRating" min="1" max="5">
+
+<label for="trainingReceived">Have you received adequate training and orientation for using simulation equipment and technology?</label>
+<input type="radio" name="trainingReceived" value="yes"> Yes
+<input type="radio" name="trainingReceived" value="no"> No
+
+<label for="institutionRole">What role does the institution play in promoting the use of simulation-based learning for nursing education? (Open-ended)</label>
+<textarea name="institutionRole" rows="4" cols="50"></textarea>
+
+<label for="policiesSupport">Do you think the institutional policies and procedures support effective simulation-based learning experiences?</label>
+<input type="radio" name="policiesSupport" value="yes"> Yes
+<input type="radio" name="policiesSupport" value="no"> No
+
+        <!-- Open-ended Questions -->
+        <h2>Open-ended Questions</h2>
+        <label for="challenges">As a nursing student, are there any challenges you experienced with simulation-based learning about knowledge acquisition and competence in skill?</label>
+        <textarea id="challenges" name="challenges" rows="4"></textarea>
+
+        <label for="realLifeSituation">According to you, how does simulation-based learning relate to real-life situations in hospital settings?</label>
+        <textarea id="realLifeSituation" name="realLifeSituation" rows="4"></textarea>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </section>
+</body>
+
+</html>
+
+            
